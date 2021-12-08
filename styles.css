@@ -1,0 +1,205 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+
+/* #columna1 .card img {
+  max-height: 70vh;
+} */
+
+.navBarColor{
+  background-color: rgb(0, 70, 106);   
+}
+
+.logo{
+    width: 150px;
+    height: 78px;
+}
+
+.btnSuscripcion{
+    height: 40px;    
+    border-radius: 5px;
+}
+
+#navbarNav{
+    justify-content: end;
+    align-self:end;    
+}
+
+#navbarNav a{
+    color:aliceblue;
+    font-size: 2rem;
+    
+}
+
+.active{
+    
+    background-color: rgba(0, 0, 106, 0.5) !important;
+    border-radius: 5px;
+}
+.navbar-nav a:hover{
+    background-color: rgba(0, 00, 106, 0.2) !important;
+    border-radius: 5px;
+}
+
+/*----------Modal Suscribite-----------------*/
+.correoSus {
+    height: 24px;
+    font-size: 1.5rem;
+}
+
+.modalButton{
+    justify-content:space-around;
+}
+
+.modalButton button {
+
+    width: 100px;
+    font-size: 1.5rem;
+}
+
+.modelTitulo{
+    justify-content:center;
+}
+
+
+
+/*---------Blog-----------------------------------------------------*/
+
+.formComentario{
+    background-color: rgba(0, 70, 106, 0.7);
+    border-radius: 5px;
+}
+.formComentario button {
+    width: 500px;
+    font-size: 1.5rem;
+}
+
+
+.comentario{
+
+    width: max-content;
+    margin-bottom:15px;
+    border-bottom: 3px dashed #1C6EA4; 
+    border-radius: 5px;
+    background-color: rgba(0,70,106,0.3)
+}
+.critica span{
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+
+.botonComprar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.linea{
+    border-bottom: 3px dashed #1C6EA4; 
+    border-radius: 5px;
+}
+
+
+/*--------------------error404------------------------------*/
+
+.error404{
+    
+    margin-top: 110px;
+
+}
+
+/* ========================slider=================== */
+#carousel {
+  position: relative;
+  }
+  
+  #carousel .carousel-inner img {
+      max-height: 50vh;
+      object-fit: cover;
+    }
+
+/* ==================card============== */
+.card {
+  border: 0;
+}
+.redondeo {
+  border-top-left-radius: calc(3rem - 1px);
+  border-top-right-radius: calc(3rem - 1px);
+}
+
+.card-title {
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.pagination {
+  justify-content: flex-end;
+}
+
+.izq {
+  justify-content: flex-end !important;
+}
+
+.secciones {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    color:black;
+}
+
+.colorfondo {
+    background-color: rgb(223, 239, 255); 
+}
+
+.borderstyle {
+    border-top:2px solid rgb(0, 124, 255) !important;
+}
+
+
+/* ==============footer============= */
+
+#footer {
+  background-color:  rgb(0, 70, 106);
+  /* min-height: 10rem; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+}
+
+.redes{
+text-align: center;
+padding-top: 10px;
+padding-bottom: 20px;
+
+}
+
+.redes li{
+  display: inline-block;
+}
+
+.redes a{
+  padding: 20px;
+}
+
+/* ==============acerca de nosotros=============== */
+.redondeo1 {
+  display: block;
+  margin: 0px auto;
+  border-radius: 45%;
+  border: solid 2px black;
+}
